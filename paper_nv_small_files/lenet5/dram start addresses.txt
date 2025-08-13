@@ -1,0 +1,2 @@
+for image: @16000
+for weights: @8000
