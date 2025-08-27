@@ -329,3 +329,23 @@ Add the following global defines when working with the nv_small RTL:
 `define FPGA
 `define FIFOGEN_MASTER_CLK_GATING_DISABLED
 ```
+---
+
+## 📂 Repository Structure
+
+```text
+riscv-nvdla-sw/
+├── lenet-5/                      # LeNet-5 example pipeline
+│   ├── pmem/                     # Program memory generation (RISC-V .mem)
+│   └── dmem/                     # DRAM weights extraction (.bin)
+│
+├── resnet18/                     # ResNet-18 example
+├── resnet50/                     # ResNet-50 example
+├── models/                       # Model assets (prototxt, caffemodel, calibration)
+├── docs/                         # Documentation
+├── images/                       # Figures and diagrams
+├── paper_nv_small_files/         # Supporting files for nv_small configuration
+│
+├── LICENSE                       # License (MIT + citation clause)
+├── README.md                     # This file
+└── .gitignore
