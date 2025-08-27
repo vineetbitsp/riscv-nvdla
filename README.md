@@ -62,7 +62,7 @@ riscv-nvdla-sw/
 
 ### Prerequisites
 - [NVDLA Compiler](https://github.com/nvdla/sw)
-- RISC-V Toolchain or SDK for the core
+- RISC-V Toolchain/SDK for the core
 - Python 3.x with `numpy`, `pandas` (for preprocessing scripts)
 
 
