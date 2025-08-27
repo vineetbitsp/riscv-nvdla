@@ -3,6 +3,32 @@
 This repository presents an open-source software generation flow that can be used to run a Caffe neural network model on any RISC-V + <a href="https://nvdla.org/">NVDLA</a> based SoC without need of a Linux kernel. The software development flow described below generates RISC‑V assembly/machine code and extracts neural network weights from a Caffe model. The Caffe model is first compiled using the NVDLA compiler and executed on NVDLA’s virtual platform (VP). During execution, interface-level transactions such as configuration bus (CSB) and system data bus (DBB) are logged for analysis. The logs tagged with nvdla.csb_adaptor are parsed to extract register accesses, which are translated into read_reg or write_reg commands based on the access type and compiled into RISC‑V assembly for loading into program memory. Similarly, logs tagged with nvdla.dbb_adaptor are examined to identify memory transactions, allowing weights to be isolated and stored into data memory. The python scripts were used to implement this flow.  
 </p>
 
+## Citation Requirement
+
+If you use this repository, its code, or any derivative work in your research,
+please **cite the following work** as a condition of use (see LICENSE):
+
+> Vineet Kumar, Ajay Kumar M, Yike Li, Shreejith Shanker, and Deepu John,  
+> *“Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference,”*  
+> Proceedings of the 38th IEEE International System-on-Chip Conference (SOCC), Dubai, U.A.E., Sept 2025 (Accepted).  
+> Available at: [https://doi.org/10.48550/arXiv.2508.16095](https://doi.org/10.48550/arXiv.2508.16095)
+
+### BibTeX
+```bibtex
+@inproceedings{kumar2025riscv,
+  author    = {Vineet Kumar and Ajay Kumar M and Yike Li and Shreejith Shanker and Deepu John},
+  title     = {Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference},
+  booktitle = {Proceedings of the 38th IEEE International System-on-Chip Conference (SOCC)},
+  address   = {Dubai, U.A.E.},
+  year      = {2025},
+  note      = {(Accepted)},
+  doi       = {10.48550/arXiv.2508.16095},
+  url       = {https://doi.org/10.48550/arXiv.2508.16095}
+}
+
+
+
+
 ## Software Development Flow
 ![Software Development Flow](docs/images/SW_flow.jpg)
 
