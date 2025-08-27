@@ -60,18 +60,10 @@ riscv-nvdla-sw/
 ```
 
 
-## 🛠 Getting Started
-
 ### Prerequisites
 - [NVDLA Compiler](https://github.com/nvdla/sw)
 - [RISC-V GCC Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
 - Python 3.x with `numpy`, `pandas` (for preprocessing scripts)
-
-### Clone the Repo
-```bash
-git clone -b nv_small_nvdla https://github.com/vineetbitsp/riscv-nvdla-sw.git
-cd riscv-nvdla-sw
-```
 
 
 
