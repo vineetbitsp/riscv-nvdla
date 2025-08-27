@@ -26,6 +26,36 @@ please **cite the following work** as a condition of use (see LICENSE):
   url       = {https://doi.org/10.48550/arXiv.2508.16095}
 }
 ```
+## Repository Structure
+riscv-nvdla-sw/
+├── lenet-5/                      # LeNet-5 example pipeline
+│   ├── pmem/                     # Program memory generation (RISC-V .mem)
+│   │   ├── assembly.py           # Parse VP CSB/DBB logs → RISC-V assembly
+│   │   ├── minus_c0.py           # Post-process assembly (remove c0, adjust)
+│   │   └── machine_code2mem/     # Convert machine code → .mem
+│   │       └── machine_code_clean.py
+│   │
+│   └── dmem/                     # DRAM weights extraction (.bin)
+│       ├── dbb_lines_extract.py
+│       ├── dbb_lines2_weights.py
+│       ├── subtract_c0.py
+│       ├── weights_sorted.py
+│       ├── divideby4.py
+│       ├── remove_duplicates_divideBy4.py
+│       ├── fill_missing_addr.py
+│       ├── clean_weights.py
+│       └── weights2bin.py
+│
+├── resnet18/                     # ResNet-18 example (NVDLA-compiled artifacts, scripts, etc.)
+├── resnet50/                     # ResNet-50 example (NVDLA-compiled artifacts, scripts, etc.)
+├── models/                       # Model assets (prototxt/caffemodel/calibration files as needed)
+├── docs/                         # Documentation for the SW flow
+├── images/                       # Figures used in README/docs (e.g., flow diagrams)
+├── paper_nv_small_files/         # Paper-related auxiliary files (nv_small config artifacts)
+│
+├── LICENSE                       # License (MIT + citation clause)
+├── README.md                     # Project overview, usage, and workflow
+└── .gitignore                    # Ignore patterns for the repo
 
 
 
