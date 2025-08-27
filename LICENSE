@@ -9,8 +9,17 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+2. If you use this Software or any derivative work in academic research, scientific
+   publications, or related projects, you must cite the following publication:
+
+   Vineet Kumar, Ajay Kumar M, Yike Li, Shreejith Shanker, and Deepu John,
+   "Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference,"
+   In Proceedings of the 38th IEEE International System-on-Chip Conference (SOCC),
+   Dubai, U.A.E., Sept 2025 (Accepted).
+   Available at: https://doi.org/10.48550/arXiv.2508.16095
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
