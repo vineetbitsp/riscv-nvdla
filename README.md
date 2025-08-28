@@ -8,10 +8,7 @@ This repository presents an open-source software generation flow that can be use
 If you use this repository, its code, or any derivative work in your research,
 please **cite the following work** as a condition of use (see LICENSE):
 
-> Vineet Kumar, Ajay Kumar M, Yike Li, Shreejith Shanker, and Deepu John,  
-> *“Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference,”*  
-> Proceedings of the 38th IEEE International System-on-Chip Conference (SOCC), Dubai, U.A.E., Sept 2025 (Accepted).  
-> Available at: [https://doi.org/10.48550/arXiv.2508.16095](https://doi.org/10.48550/arXiv.2508.16095)
+V. Kumar, A. M. Kumar, Y. Li, S. Shanker, and D. John, “Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference,” arXiv preprint arXiv:2508.16095, 2025. [Online]. Available: https://arxiv.org/abs/2508.16095
 
 ### BibTeX
 ```bibtex
