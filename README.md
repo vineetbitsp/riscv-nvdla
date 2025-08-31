@@ -336,3 +336,17 @@ Add the following global defines when working with the nv_small RTL:
 ```
 ---
 
+#### Citation
+
+If you find this project useful in your research, please consider citing our work:
+```
+@misc{kumar2025baremetalriscvnvdla,
+      title={Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference}, 
+      author={Vineet Kumar and Ajay Kumar M and Yike Li and Shreejith Shanker and Deepu John},
+      year={2025},
+      eprint={2508.16095},
+      archivePrefix={arXiv},
+      primaryClass={cs.AR},
+      url={https://arxiv.org/abs/2508.16095}, 
+}
+```
