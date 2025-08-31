@@ -338,7 +338,7 @@ Add the following global defines when working with the nv_small RTL:
 
 #### Citation
 
-If you find this project useful in your research, please consider citing our work:
+If you find this project useful in your research, please consider citing our work which is accepted in 2025 IEEE 38th International System-on-Chip Conference (SOCC):
 ```
 @misc{kumar2025baremetalriscvnvdla,
       title={Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference}, 
