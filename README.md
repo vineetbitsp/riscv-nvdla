@@ -10,19 +10,7 @@ please **cite the following work** as a condition of use (see LICENSE):
 
 V. Kumar, A. M. Kumar, Y. Li, S. Shanker, and D. John, “Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference,” arXiv preprint arXiv:2508.16095, 2025. [Online]. Available: https://arxiv.org/abs/2508.16095
 
-### BibTeX
-```bibtex
-@inproceedings{kumar2025riscv,
-  author    = {Vineet Kumar and Ajay Kumar M and Yike Li and Shreejith Shanker and Deepu John},
-  title     = {Bare-Metal RISC-V + NVDLA SoC for Efficient Deep Learning Inference},
-  booktitle = {Proceedings of the 38th IEEE International System-on-Chip Conference (SOCC)},
-  address   = {Dubai, U.A.E.},
-  year      = {2025},
-  note      = {(Accepted)},
-  doi       = {10.48550/arXiv.2508.16095},
-  url       = {https://doi.org/10.48550/arXiv.2508.16095}
-}
-```
+
 ## Repository Structure
 ```text
 riscv-nvdla-sw/
